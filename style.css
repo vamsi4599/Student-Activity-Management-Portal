@@ -1,0 +1,96 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    line-height: 1.5;
+    color: #222;
+    background-color: #f5f7fa;
+}
+
+header {
+    background-color: #dce8f5;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #c5d5e6;
+    border-radius: 8px;
+}
+
+header h1 {
+    color: #173b66;
+}
+
+nav {
+    background-color: white;
+    padding: 12px;
+    text-align: center;
+    margin-top: 12px;
+    border: 1px solid #d5dce5;
+    border-radius: 8px;
+}
+
+nav a {
+    margin: 0 12px;
+    color: #123b65;
+    text-decoration: none;
+}
+
+section, aside {
+    background-color: white;
+    margin: 18px 0;
+    padding: 18px;
+    border: 1px solid #d5dce5;
+    border-radius: 8px;
+}
+
+article {
+    background-color: #fafcff;
+    border: 1px solid #d5dce5;
+    border-radius: 6px;
+    padding: 12px;
+    margin: 12px 0;
+}
+
+form {
+    max-width: 500px;
+}
+
+input, select, textarea {
+    margin-top: 5px;
+    padding: 7px;
+    border: 1px solid #bfcbd8;
+    border-radius: 4px;
+}
+
+fieldset {
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    padding: 10px;
+    margin: 12px 0;
+}
+
+button {
+    padding: 9px 16px;
+    background-color: #245b91;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #173b66;
+}
+
+a:focus, input:focus, select:focus,
+textarea:focus, button:focus {
+    outline: 2px solid #1b5fa7;
+    outline-offset: 2px;
+}
+
+footer {
+    background-color: #dce8f5;
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #c5d5e6;
+    border-radius: 8px;
+}
